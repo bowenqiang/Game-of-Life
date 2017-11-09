@@ -8,6 +8,7 @@ public:
 private:
     void init();
     void nextGen(board &);
+    void display();
     int numofNeighbour(vector<vector<int>>, int, int);
     board myboard;
     int speed;

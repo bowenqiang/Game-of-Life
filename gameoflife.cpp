@@ -40,3 +40,8 @@ void gameoflife::nextGen(board &myBoard)
     }
     myBoard.setBoard(nextBoard);
 }
+
+void gameoflife::display()
+{
+    
+}
